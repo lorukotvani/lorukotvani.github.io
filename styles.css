@@ -227,6 +227,26 @@ a:focus-visible {
     color: var(--color-text-muted);
     text-align: center;
 }
+.tree-divider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.tree-divider-image {
+    max-width: 90px;      /* pienennys – voit säätää esim. 70–120px */
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.tree-divider-line {
+    width: 100%;
+    max-width: 260px;
+    height: 3px;
+    background-color: #c00030; /* punainen linja */
+    border-radius: 999px;
+}
 
 /* Responsiiviset tarkennukset */
 
@@ -250,3 +270,4 @@ a:focus-visible {
         font-size: 1.05rem;
     }
 }
+
