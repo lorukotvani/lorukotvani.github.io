@@ -242,8 +242,8 @@ a:focus-visible {
 
 .tree-divider-line {
     width: 100%;
-    max-width: 260px;
-    height: 3px;
+    max-width: 560px;
+    height: 1px;
     background-color: #c00030; /* punainen linja */
     border-radius: 999px;
 }
@@ -270,4 +270,5 @@ a:focus-visible {
         font-size: 1.05rem;
     }
 }
+
 
